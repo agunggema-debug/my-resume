@@ -229,16 +229,21 @@
             <!-- * * SB Forms Contact Form * *-->
             <!-- * * * * * * * * * * * * * * *-->
             <form id="contactForm" action="https://formspree.io/f/xldwyweg" method="POST">
-              <div class="form-floating mb-3">  
-                <input type="text" name="name" placeholder="Nama Anda">
+              <div class="form-floating mb-3">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" name="name" placeholder="Nama Anda" />
               </div>
               <div class="form-floating mb-3">
-                <input type="email" name="email" placeholder="Email Anda">
+                <label for="emailAddress">Email Address</label>
+                <input class="form-control" type="email" name="email" placeholder="Email Anda" />
               </div>
               <div class="form-floating mb-3">
-                <textarea name="message" placeholder="Pesan Anda"></textarea>
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" placeholder="Pesan Anda"></textarea>
               </div>
-                <button type="submit">Kirim</button>
+              <div class="d-grid">
+                <button lass="btn btn-primary" type="submit">Kirim</button>
+              </div>
             </form>
             </form>
           </div>

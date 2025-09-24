@@ -1,5 +1,5 @@
   
-# ✨Website Resume & Portofolio 
+# ✨Website Resume & Portofolio dengan menggunakan template Startbootstrap.
 Website ini adalah resume dan portofolio pribadi yang dibuat menggunakan template gratis dari Start Bootstrap. Proyek ini bertujuan untuk menampilkan profil profesional, pengalaman, dan keahlian saya secara interaktif dan online.
 
 ## ✅Fitur Utama

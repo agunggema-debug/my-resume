@@ -47,3 +47,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+      <SpeedInsights /> // Pastikan komponen ini ada di luar <body> atau di <html>
+    </html>
+  );
+}

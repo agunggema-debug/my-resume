@@ -58,3 +58,14 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <SpeedInsights /> // Dipanggil setelah Component
+    </>
+  );
+}
+export default MyApp;

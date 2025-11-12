@@ -11235,9 +11235,9 @@ html {
 aa {
   font-family: "Exo 2", sans-serif;
   justify-content: center;
-  align-items: center;
+  display: flex;
+  align-items: auto;
   background: #000;
-  min-height: 100vh;
   --neon-text-color: #f40;
   --neon-border-color: #08f;
   font-size: 2rem;
